@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Toto
-        run: echo "${{ secrets['toto'] }}"
+        run: echo "${{ secrets['toTO'] }}"
       - name: Tata
-        run: echo "${{ secrets['tata'] }}"
+        run: echo "${{ secrets['TAta'] }}"
