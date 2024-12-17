@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Toto
         run: echo "${{ secrets['toto'] }}"
+      - name: Tata
+        run: echo "${{ secrets['tata'] }}"
